@@ -80,12 +80,11 @@ const ContactMe = () => {
         transition={{ duration: 0.5 }}
       >
         <TextWrap>
-          <Heading>Contact Me</Heading>
+          <Heading>Зв'язатись з нами</Heading>
 
-          <Text>
-            I'm currently seeking frontend internship opportunities at startups.
-            Do you have any openings? Please feel free to reach out to me
-          </Text>
+          <Text>Запис на консультацію проводиться в телефонному режимі.</Text>
+          <Text>Графік роботи</Text>
+          <Text>Наша адреса</Text>
 
           <IconsWrap variants={container} initial="hidden" animate="visible">
             <IconsBox>
@@ -101,7 +100,7 @@ const ContactMe = () => {
               ))}
             </IconsBox>
           </IconsWrap>
-          <p>Tel: +380977496885</p>
+          <p>Tel: +380677778709</p>
         </TextWrap>
         <ImageWrap>
           <Image src={contact} alt="contact" />

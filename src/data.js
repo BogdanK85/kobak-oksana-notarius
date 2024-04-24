@@ -1,22 +1,32 @@
 import { nanoid } from 'nanoid';
-import phonebook from '../src/assets/projects/phonebook.png';
-import studio from '../src/assets/projects/studio.jpg';
-import rentcar from '../src/assets/projects/rentcar.png';
-import moviesSearch from '../src/assets/projects/moviesSearch.png';
-import imageSearch from '../src/assets/projects/imageSearch.png';
-import watch from '../src/assets/projects/watch.png';
-import pulse from '../src/assets/projects/pulse.png';
-import tastytreats from '../src/assets/projects/tastytreats.png';
-import foodsta from '../src/assets/projects/foodsta.png';
-import restapi from '../src/assets/projects/restapi.png';
-import portfolio from '../src/assets/projects/posrtolio.png';
-import note from '../src/assets/projects/note.png';
+import vlasnist from '../src/assets/projects/vlasnist.png';
+import svidotcsva from '../src/assets/projects/svidotcsva.png';
+import dovirenist from '../src/assets/projects/dovirenist.png';
+import zakordon from '../src/assets/projects/zakordon.png';
+import neruhomist from '../src/assets/projects/neruhomist.png';
+import fop from '../src/assets/projects/fop.png';
+import zapovit from '../src/assets/projects/zapovit.png';
+import spadok from '../src/assets/projects/spadok.png';
+import dogovoru from '../src/assets/projects/dogovoru.png';
+import kupivlja from '../src/assets/projects/kupivlja.png';
+import zavirennja from '../src/assets/projects/zavirennja.png';
+import shljub from '../src/assets/projects/shljub.png';
 
 export const projects = [
   {
     id: nanoid(),
-    title: 'Lux car rent',
-    img: rentcar,
+    title: 'Реєстрація нерухомості',
+    img: neruhomist,
+    description: 'App helps you to find diferent images in hd quality',
+    repository: 'Individual  project',
+    technologies: ['React.js'],
+    github: 'https://github.com/BogdanK85/goit-react-hw-04-images/',
+    live: 'https://bogdank85.github.io/goit-react-hw-04-images/',
+  },
+  {
+    id: nanoid(),
+    title: 'Довіреності',
+    img: dovirenist,
     description: 'App helps you choose and rent lux car ',
     repository: 'Individual  project',
     technologies: ['React.js'],
@@ -25,8 +35,8 @@ export const projects = [
   },
   {
     id: nanoid(),
-    title: 'Tasty treats',
-    img: tastytreats,
+    title: 'Спадкові справи',
+    img: spadok,
     description: 'Customize Your Meal with Ingredient and Video Guides',
     repository: 'Team project',
     technologies: ['HTML, CSS, JavaScript'],
@@ -36,8 +46,8 @@ export const projects = [
   },
   {
     id: nanoid(),
-    title: 'Phonebook',
-    img: phonebook,
+    title: 'Право власності',
+    img: vlasnist,
     description: 'Phonebook app helps you save contacts and manage them',
     repository: 'Individual  project',
     technologies: ['React.js'],
@@ -47,8 +57,8 @@ export const projects = [
 
   {
     id: nanoid(),
-    title: 'Movies search',
-    img: moviesSearch,
+    title: 'Виїзд дитини за кордон',
+    img: zakordon,
     description: 'App for seacrh movies and info about it',
     repository: 'Individual  project',
     technologies: ['React.js'],
@@ -57,8 +67,8 @@ export const projects = [
   },
   {
     id: nanoid(),
-    title: 'Power pulse',
-    img: pulse,
+    title: 'Посвідчення заповітів',
+    img: zapovit,
     description:
       'App for training your body, with diferent exercises and products',
     repository: 'Team project',
@@ -69,8 +79,8 @@ export const projects = [
   },
   {
     id: nanoid(),
-    title: 'Rest-API',
-    img: restapi,
+    title: 'Договір купівлі-продажу',
+    img: kupivlja,
     description: 'Create user, authorisation, connect DB, add avatar, token ',
     repository: 'Individual  project',
     technologies: ['Node.js, MongoDB'],
@@ -79,18 +89,8 @@ export const projects = [
   },
   {
     id: nanoid(),
-    title: 'Image search',
-    img: imageSearch,
-    description: 'App helps you to find diferent images in hd quality',
-    repository: 'Individual  project',
-    technologies: ['React.js'],
-    github: 'https://github.com/BogdanK85/goit-react-hw-04-images/',
-    live: 'https://bogdank85.github.io/goit-react-hw-04-images/',
-  },
-  {
-    id: nanoid(),
-    title: 'Web-Studio',
-    img: studio,
+    title: 'Видача свідоцтв',
+    img: svidotcsva,
     description: 'Site for digital marketing for your business.',
     repository: 'Individual  project',
     technologies: ['HTML, CSS'],
@@ -100,8 +100,8 @@ export const projects = [
 
   {
     id: nanoid(),
-    title: 'The watch spot',
-    img: watch,
+    title: 'Реєстрація ТзОВ',
+    img: fop,
     description: 'The site will help you choose and order a Swiss watch',
     repository: 'Team project',
     technologies: ['HTML, CSS, JavaScript'],
@@ -110,8 +110,8 @@ export const projects = [
   },
   {
     id: nanoid(),
-    title: 'FoodSta',
-    img: foodsta,
+    title: 'Договори',
+    img: dogovoru,
     description: 'Enjoy Your Favorite Food From Anywhere',
     repository: 'Team project',
     technologies: ['HTML, CSS'],
@@ -122,8 +122,8 @@ export const projects = [
 
   {
     id: nanoid(),
-    title: 'My Portfolio',
-    img: portfolio,
+    title: 'Завірення документів',
+    img: zavirennja,
     description: 'This app is a showcase of my skills, projects, and education',
     repository: 'Individual  project',
     technologies: [' React.js'],
@@ -132,8 +132,8 @@ export const projects = [
   },
   {
     id: nanoid(),
-    title: 'Notes',
-    img: note,
+    title: 'Шлюбний договір',
+    img: shljub,
     description: 'This app help you to add your notes, find and remove them',
     repository: 'Individual  project',
     technologies: [' React.js'],

@@ -39,7 +39,7 @@ const ProjectList = ({ projects }) => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <SectionTitle>Projects</SectionTitle>
+        <SectionTitle>Послуги</SectionTitle>
       </motion.div>
       <motion.section variants={container} initial="hidden" animate="visible">
         <ProjectsWrapper>
@@ -51,7 +51,7 @@ const ProjectList = ({ projects }) => {
         </ProjectsWrapper>
         {projects.length === 3 && pathname === '/' && (
           <TransparentButton to="/projects">
-            See more <BsChevronDown />
+            Усі послуги <BsChevronDown />
           </TransparentButton>
         )}
       </motion.section>

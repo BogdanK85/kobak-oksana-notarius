@@ -26,16 +26,16 @@ const AboutMe = () => {
         <Wrapper>
           <MyImg src={me} alt="Bohdan Kobak" loading="lazy" />
           <Description>
-            <MainTitle>I'm Bohdan Kobak</MainTitle>
-            <Title>Fullstack developer</Title>
+            <MainTitle>Кобак Оксана Володимирівна</MainTitle>
+            <Title>Приватний нотаріус</Title>
             <Bio>
-              From my first programming webinar, I was fascinated. With
-              enthusiasm and passion, I pursued education at GoIT IT School.
-              Throughout my studies, I delved into programming languages and
-              full-stack development. Tackling complex team projects motivated
-              me to grow. Now, equipped with new skills, I'm driven by a passion
-              for coding and seek new challenges to contribute to computer
-              science.
+              Наша нотаріальна контора має 25-річний стаж роботи та
+              індивідуальний підхід до кожного клієнта. Напрацьований роками
+              досвід нотаріусів та їх помічників дозволяє запропонувати найкращі
+              рішення з питань купівлі-продажу та дарування нерухомості,
+              спадкування, передання майна в заставу (іпотеку), посвідчення
+              довіреностей, реєстрації юридичних осіб, оскільки ми якісно та
+              професійно здійснюємо весь спектр нотаріальних послуг.
             </Bio>
             <HighlightedLink href={resume} target="_blank">
               Download Resume <FiDownload />

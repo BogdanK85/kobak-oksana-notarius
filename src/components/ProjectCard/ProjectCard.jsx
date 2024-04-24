@@ -19,8 +19,8 @@ const ProjectCard = ({ project }) => {
       <CardImg src={project.img} alt={project.title} loading="lazy" />
       <CardInfo>
         <CardTitle>{project.title}</CardTitle>
-        <CardDescription>{project.description}</CardDescription>
-        <CardTechnologies>{project.technologies}</CardTechnologies>
+        {/* <CardDescription>{project.description}</CardDescription>
+        <CardTechnologies>{project.technologies}</CardTechnologies> */}
         <CardProject>{project.repository}</CardProject>
         <CardLinks>
           {project.github && (

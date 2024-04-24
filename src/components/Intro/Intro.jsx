@@ -25,14 +25,14 @@ const Intro = () => {
         <Wrapper>
           <MyImg src={me} alt="Bohdan Kobak" loading="lazy" />
           <Description>
-            <Title>HELLO there..!</Title>
-            <MainTitle>I'm Bohdan Kobak</MainTitle>
-            <Title>Fullstack developer</Title>
+            <Title>Приватний нотаріус</Title>
+            <MainTitle>Кобак Оксана Володимирівна</MainTitle>
+            <Title>Професійні нотаріальні послуги</Title>
             <Bio>
-              Passionate about Technology and Startups | Lifelong learner
-              Innovations for a better tomorrow: program and change the world.
+              Надаємо усі види нотаріальних послуг у м. Дрогобич та м. Стебник.
             </Bio>
-            <AboutMeBtn to="/about">About Me</AboutMeBtn>
+            <Bio>ДОСВІД - ЦЕ НАША ПЕРЕВАГА!</Bio>
+            <AboutMeBtn to="/contact">Консультація</AboutMeBtn>
             <IconsWrapper>
               <Icon href="https://github.com/BogdanK85" target="_blank">
                 <BsGithub />

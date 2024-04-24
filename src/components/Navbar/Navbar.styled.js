@@ -14,7 +14,7 @@ export const Header = styled.header`
 `;
 
 export const BurgerMenu = styled.button`
-  font-size: 1.5em;
+  font-size: 2em;
   background-color: transparent;
   border: none;
   outline: none;

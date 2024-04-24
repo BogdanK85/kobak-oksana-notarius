@@ -25,7 +25,7 @@ export const MainTitle = styled.h1`
   font-size: 3em;
   line-height: 1.2;
   font-family: 'Anta', sans-serif;
-  font-weight: 500;
+  font-weight: 600;
 
   @media screen and (min-width: 768px) {
     font-size: 2.5em;
@@ -34,16 +34,17 @@ export const MainTitle = styled.h1`
 
 export const Title = styled.p`
   font-family: 'Anta', sans-serif;
-  font-size: 1.3em;
-  font-weight: 500;
-  margin: 0.25em 0;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #3d3d3d;
+  margin: 0.5em 0;
 `;
 
 export const Bio = styled.p`
   color: var(--other-para-color);
   font-family: 'Anta', sans-serif;
-  font-size: 0.9em;
-  margin-bottom: 1em;
+  font-size: 1.05em;
+  margin-bottom: 0.5em;
 `;
 
 export const MyImg = styled.img`
@@ -54,7 +55,7 @@ export const MyImg = styled.img`
 
   @media screen and (min-width: 768px) {
     margin-bottom: 1.5em;
-    max-width: 150px;
+    max-width: 210px;
   }
 `;
 
@@ -101,7 +102,7 @@ export const AboutMeBtn = styled(Link)`
   height: 46px;
   position: absolute;
   left: 0;
-  top: 215px;
+  top: 370px;
   justify-content: center;
   align-items: center;
   margin-top: 0.5em;

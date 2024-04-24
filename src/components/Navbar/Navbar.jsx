@@ -60,7 +60,7 @@ const Navbar = () => {
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                 end
               >
-                Home
+                Головна
               </NavLink>
             </li>
             <li>
@@ -71,7 +71,7 @@ const Navbar = () => {
                 }}
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               >
-                About
+                Про Мене
               </NavLink>
             </li>
             <li>
@@ -82,7 +82,7 @@ const Navbar = () => {
                 }}
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               >
-                Projects
+                Нотаріальні послуги
               </NavLink>
             </li>
             <li>
@@ -93,7 +93,7 @@ const Navbar = () => {
                 }}
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               >
-                Education
+                Відгуки клієнтів
               </NavLink>
             </li>
             <li>
@@ -104,7 +104,7 @@ const Navbar = () => {
                 }}
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               >
-                Contact
+                Контакти
               </NavLink>
             </li>
           </MobileNavLinks>
@@ -116,7 +116,7 @@ const Navbar = () => {
                   return isActive ? 'active' : isPending ? 'pending' : '';
                 }}
               >
-                Home
+                Головна
               </NavLink>
             </li>
             <li>
@@ -126,7 +126,7 @@ const Navbar = () => {
                   return isActive ? 'active' : isPending ? 'pending' : '';
                 }}
               >
-                About
+                Про Мене
               </NavLink>
             </li>
             <li>
@@ -136,7 +136,7 @@ const Navbar = () => {
                   return isActive ? 'active' : isPending ? 'pending' : '';
                 }}
               >
-                Projects
+                Нотаріальні послуги
               </NavLink>
             </li>
             <li>
@@ -146,7 +146,7 @@ const Navbar = () => {
                   return isActive ? 'active' : isPending ? 'pending' : '';
                 }}
               >
-                Education
+                Відгуки клієнтів
               </NavLink>
             </li>
             <li>
@@ -156,7 +156,7 @@ const Navbar = () => {
                   return isActive ? 'active' : isPending ? 'pending' : '';
                 }}
               >
-                Contact
+                Контакти
               </NavLink>
             </li>
           </NavLinks>

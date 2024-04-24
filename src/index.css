@@ -15,15 +15,15 @@ code {
 }
 
 :root {
-  --text-color: #242222;
-  --heading-color: #242222;
+  --text-color: #3d3d3d;
+  --heading-color: #3d3d3d;
   --bg-color: rgb(255, 255, 255);
   --bg-card: rgba(255, 255, 255, 0.48);
   --bg-img: url('../src/assets/bg.jpg') no-repeat center center;
   --bg-blur: rgba(255, 255, 255, 0.2);
   --link-color: #333;
-  --link-active-color: #2563eb;
-  --link-hover-color: #2563eb;
+  --link-active-color: #ffc506;
+  --link-hover-color: #ffc506;
   --para-color: #111;
   --para-gray-color: #3c3838;
   --other-para-color: #534e4e;
