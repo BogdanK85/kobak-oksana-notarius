@@ -2,14 +2,14 @@ import { FaGithub } from 'react-icons/fa';
 import { HiOutlineExternalLink } from 'react-icons/hi';
 import {
   Card,
-  CardDescription,
+  // CardDescription,
   CardImg,
   CardInfo,
   CardLink,
   CardLinkLive,
   CardLinks,
   CardProject,
-  CardTechnologies,
+  // CardTechnologies,
   CardTitle,
 } from './ProjectCard.styled';
 
