@@ -16,36 +16,38 @@ const Footer = () => {
       <FooterWraper>
         <Row>
           <Column>
-            <ColumnTitle>Socials</ColumnTitle>
+            <ColumnTitle>Контактна інформація</ColumnTitle>
             <SiteLink
               href="https://github.com/BogdanK85"
               rel="noreferrer"
               target="_blank"
             >
-              Github
+              м. Стебник вул. Грушевського ...
             </SiteLink>
             <SiteLink
               href="https://www.linkedin.com/in/bogdan-kobak-421773296/"
               rel="noreferrer"
               target="_blank"
             >
-              LinkedIn
+              Email@пошта.ком
             </SiteLink>
             <SiteLink
               href="https://djinni.co/q/ec8a29cb7e/"
               rel="noreferrer"
               target="_blank"
             >
-              Djinni
+              Tel: +380677778709
             </SiteLink>
           </Column>
           <Column>
-            <ColumnTitle>Quick Links</ColumnTitle>
-            <SiteRouterLink to="/">Home</SiteRouterLink>
-            <SiteRouterLink to="/about">About</SiteRouterLink>
-            <SiteRouterLink to="/projects">Projects</SiteRouterLink>
-            <SiteRouterLink to="/education">Education</SiteRouterLink>
-            <SiteRouterLink to="/contact">Contact</SiteRouterLink>
+            <ColumnTitle>Швидкі посилання</ColumnTitle>
+            <SiteRouterLink to="/">Головна</SiteRouterLink>
+            <SiteRouterLink to="/about">Про мене</SiteRouterLink>
+            <SiteRouterLink to="/projects">Нотаріальні послуги</SiteRouterLink>
+            <SiteRouterLink to="/education">
+              Сертифікати / Відгуки клієнтів
+            </SiteRouterLink>
+            <SiteRouterLink to="/contact">Контакти</SiteRouterLink>
           </Column>
         </Row>
       </FooterWraper>

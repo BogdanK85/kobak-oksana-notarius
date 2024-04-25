@@ -4,7 +4,7 @@ import { styled } from 'styled-components';
 export const Wrapper = styled(motion.div)`
   min-height: 70vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 4em;
   padding: 2em 0;
 

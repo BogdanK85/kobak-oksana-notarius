@@ -1,10 +1,10 @@
 import { motion } from 'framer-motion';
-import { FiDownload } from 'react-icons/fi';
-import sertificate from '../../assets/sertificate.pdf';
+// import { FiDownload } from 'react-icons/fi';
+// import sertificate from '../../assets/sertificate.pdf';
 import {
   ButtonWrap,
   EducationHeader,
-  HighlightedLinkSertificate,
+  // HighlightedLinkSertificate,
   Knowlege,
   TimeLine,
   TimeLineItem,
@@ -15,8 +15,8 @@ import MySlider from 'components/Slider/Slider';
 const educationData = [
   {
     id: 1,
-    univercity: 'IT School: GoIT',
-    specialization: 'Full-stack Developer',
+    univercity: 'Національна юридична академія України ім. Ярослава Мудрого',
+    specialization: 'спеціальність',
     fromDate: new Date('2023-02-27'),
     toDate: new Date('2024-02-02'),
     knowleges: 'HTML, CSS, JavaScript, React, Node.js',
@@ -62,7 +62,7 @@ const Educations = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <SectionTitle>Education</SectionTitle>
+        <SectionTitle>Освіта</SectionTitle>
         <TimeLine>
           {educationData
             .sort((a, b) => b.fromDate.getTime() - a.fromDate.getTime())
@@ -91,10 +91,10 @@ const Educations = () => {
               </TimeLineItem>
             ))}
           <ButtonWrap>
-            <HighlightedLinkSertificate href={sertificate} target="_blank">
+            {/* <HighlightedLinkSertificate href={sertificate} target="_blank">
               Download Sertificate
               <FiDownload />
-            </HighlightedLinkSertificate>
+            </HighlightedLinkSertificate> */}
           </ButtonWrap>
         </TimeLine>
       </motion.div>

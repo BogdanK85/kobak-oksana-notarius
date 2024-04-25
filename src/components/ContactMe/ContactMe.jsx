@@ -83,8 +83,8 @@ const ContactMe = () => {
           <Heading>Зв'язатись з нами</Heading>
 
           <Text>Запис на консультацію проводиться в телефонному режимі.</Text>
-          <Text>Графік роботи</Text>
-          <Text>Наша адреса</Text>
+          {/* <Text>Графік роботи</Text>
+          <Text>Наша адреса</Text> */}
 
           <IconsWrap variants={container} initial="hidden" animate="visible">
             <IconsBox>
